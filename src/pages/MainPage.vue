@@ -39,7 +39,6 @@ export default {
                                     imgSrc: '',
                                 },
                             ],
-                            vaidationFunction: () => {},
                         },
                         {   
                             inputStyle: 'select-employ',
@@ -59,7 +58,6 @@ export default {
                                     imgSrc: '',
                                 },
                             ],
-                            vaidationFunction: () => {},
                         },
                         {   
                             inputStyle: 'select',
@@ -75,7 +73,6 @@ export default {
                                     value: 2,
                                 },
                             ],
-                            vaidationFunction: () => {},
                         },
                         {   
                             inputStyle: 'select',
@@ -91,19 +88,16 @@ export default {
                                     value: 2,
                                 },
                             ],
-                            vaidationFunction: () => {},
                         },
                         {   
                             inputStyle: 'number',
                             name: 'capitalizationPercentage',
                             placeholder: 'Процент капитализации',
-                            vaidationFunction: () => {},
                         },
                         {   
                             inputStyle: 'text',
                             placeholder: 'Должность',
                             name: 'position',
-                            vaidationFunction: () => {},
                         },
                     ]
                 },
@@ -128,13 +122,11 @@ export default {
                                         imgSrc: '',
                                     },
                                 ],
-                                vaidationFunction: () => {},
                             },
                             {   
                                 inputStyle: 'text',
                                 name: 'productName',
                                 placeholder: 'Название продукта',
-                                vaidationFunction: () => {},
                             },
                         ]
                     },
@@ -145,7 +137,6 @@ export default {
                                 name: 'url',
                                 label: 'Ссылка в jira, вкючая https://',
                                 placeholder: 'Название продукта',
-                                vaidationFunction: () => {},
                             },
                             {   
                                 inputStyle: 'select',
@@ -169,15 +160,11 @@ export default {
                                         value: 4,
                                     },
                                 ],
-                                vaidationFunction: () => {},
                             }
                         ]
                     }
                 ],
             },
-            submitFunction: () => {
-                console.log(123);
-            }
         }
     },
 }
